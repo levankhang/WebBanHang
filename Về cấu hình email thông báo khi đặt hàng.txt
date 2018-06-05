@@ -1,0 +1,7 @@
+﻿Để cấu hình email nào sẽ là email mà hệ thống website dùng để gửi email đến khách hàng, cần chỉnh sửa 2 dòng:
+
+$config['smtp_user']    = 'Email mong muốn';
+$config['smtp_pass']    = 'Mật khẩu gmail...';
+
+
+trong file C:\xampp\htdocs\WebBanHang\application\controllers\GioHang.php
